@@ -42,10 +42,10 @@ const multipleNumbers2 = (number) => number % 2 ? console.log(number * 3) : cons
 если хотя бы один из аргументов четный, то функция должна вывести разницу чисел, иначе произведение чисел */
 const makeNumberOperation = (a, b) => {
     if (!(+a % 2) && !(+b % 2)) {
-        console.log(+a+ +b);
+        console.log(+a + +b);
     } else if (!(+a % 2) || !(+b % 2)) {
         console.log(+a - +b);
-    } else  {
+    } else {
         console.log(+a * +b);
     }
 }
@@ -59,5 +59,5 @@ console.log(multipleNumbers(2));
 console.log(multipleNumbers2(3));
 
 console.log(makeNumberOperation(2, '4'));
-console.log(makeNumberOperation('2',3));
-console.log(makeNumberOperation(3,3));
+console.log(makeNumberOperation('2', 3));
+console.log(makeNumberOperation(3, 3));
